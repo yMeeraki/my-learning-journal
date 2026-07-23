@@ -8,17 +8,19 @@
   margin: 0;
 }
 
-body {
-  background-color: #fafafa;
-  color: #141414;
-  font-family: "Source Sans 3", sans-serif;
-}
-
 /* 
     =======================
     Home Webpage Layout
     =======================
 */
+
+body {
+  background-color: #fafafa;
+  color: #141414;
+  font-family: "Source Sans 3", sans-serif;
+  display: grid;
+  grid-column: 2em 1fr 2em;
+}
 
 /* 
     =======================
@@ -88,6 +90,7 @@ body {
   grid-template-columns: 2em 1fr 2em;
   grid-template-rows: 1em 1fr 1em;
 }
+
 main {
   grid-column: 2;
   grid-row: 2;
@@ -148,6 +151,7 @@ h1 {
   font-size: 2rem;
   line-height: 108%;
   letter-spacing: -3%;
+  margin-bottom: .5em;
 }
 
 h3 {
