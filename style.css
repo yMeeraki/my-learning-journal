@@ -74,8 +74,8 @@ ul {
   -webkit-backdrop-filter: blur(10px); /* Safari support */
 
   border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 20px;
-  border-radius: 8px;
+  padding: 1.25em;
+  border-radius: 0.2em;
 }
 
 /* 
@@ -136,9 +136,14 @@ article {
     =======================
 */
 
+h1 {
+  font-size: 2rem;
+  line-height: 108%;
+  letter-spacing: -3%;
+}
+
 h3 {
   font-size: 1.5rem;
-  font-weight: 700;
   line-height: 108%;
   letter-spacing: 0%;
 }
@@ -150,7 +155,7 @@ h5 {
   letter-spacing: 0%;
 }
 
-.card p {
+p {
   color: #505050;
   font-style: Regular;
   line-height: 125%;
