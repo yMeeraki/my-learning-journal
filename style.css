@@ -8,7 +8,14 @@
 
 body {
   background-color: #fafafa;
+  color: #141414;
 }
+
+/* 
+    =======================
+    Main Layout
+    =======================
+*/
 
 /* 
     =======================
@@ -22,7 +29,7 @@ img {
   border-radius: 0.2em;
 }
 
-.card {
+article {
   height: 100%;
   border: 1px solid black; /* REMOVE IT */
   display: flex;
@@ -32,6 +39,14 @@ img {
   height: 100%;
 }
 
-.card>h2{
-    
+/* 
+    =======================
+    Typograhy
+    =======================
+*/
+
+a{
+    text-decoration: none;
+    color: #141414;
 }
+
