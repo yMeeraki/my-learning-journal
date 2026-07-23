@@ -2,4 +2,36 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/* 
+    =======================
+    Card
+    =======================
+*/
+
+img {
+  width: 100%;
+  height: 232px;
+  border-radius: 0.2em;
+}
+
+.card {
+  height: 100%;
+  border: 1px solid black; /* REMOVE IT */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5625em;
+  background-color: #e5e5e5; /* REMOVE IT */
+  height: 100%;
+}
+
+.card>h2{
+    
 }
