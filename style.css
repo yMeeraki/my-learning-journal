@@ -31,9 +31,16 @@ main {
 
 @media (min-width: 500px) {
   main {
-    grid-template-columns: repeat(2, minmax(70px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1em;
   }
+}
+
+@media (min-width:870px) {
+   main {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  } 
 }
 
 /* 
