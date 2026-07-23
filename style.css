@@ -59,7 +59,7 @@ ul {
 }
 
 .hero {
-  background-image: url("./images/hero-bg.png");
+  background: url("./images/hero-bg.png");
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -151,7 +151,7 @@ h1 {
   font-size: 2rem;
   line-height: 108%;
   letter-spacing: -3%;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 h3 {
@@ -168,7 +168,7 @@ h5 {
 }
 
 p {
-  color: #505050;
+  color: #343a40;
   font-style: Regular;
   line-height: 125%;
   letter-spacing: 0%;
