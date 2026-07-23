@@ -63,14 +63,16 @@ ul {
   background-size: cover;
   height: 100vh;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 
-.hero div {
-  width: 80%;
+.hero-text {
+  max-width: 80%;
 
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
+
+  color: #ffffff;
 
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); /* Safari support */
@@ -168,10 +170,14 @@ h5 {
 }
 
 p {
-  color: #343a40;
+  color: #505050;
   font-style: Regular;
   line-height: 125%;
   letter-spacing: 0%;
+}
+
+.hero-text p {
+  color: #ffffff;
 }
 
 a {
