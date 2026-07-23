@@ -61,12 +61,12 @@ ul {
   background-size: cover;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
 .hero div {
-  width: 50%;
+  width: 80%;
 
   background-color: rgba(255, 255, 255, 0.3);
 
@@ -74,7 +74,7 @@ ul {
   -webkit-backdrop-filter: blur(10px); /* Safari support */
 
   border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 1.25em;
+  padding: 1em;
   border-radius: 0.2em;
 }
 
@@ -136,6 +136,14 @@ article {
     =======================
 */
 
+.brand {
+  font-size: 0.8125rem;
+}
+
+.nav-item a {
+  font-size: 0.75rem;
+}
+
 h1 {
   font-size: 2rem;
   line-height: 108%;
@@ -165,4 +173,14 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media (min-width: 500px) {
+  .brand {
+    font-size: 1.25rem;
+  }
+
+  .nav-item a {
+    font-size: 1rem;
+  }
 }
