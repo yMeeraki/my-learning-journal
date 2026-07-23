@@ -60,11 +60,9 @@ img {
 
 article {
   height: 100%;
-  border: 1px solid black; /* REMOVE IT */
   display: flex;
   flex-direction: column;
-  gap: 0.5625em;
-  background-color: #e5e5e5; /* REMOVE IT */
+  gap: 0.56em;
   height: 100%;
 }
 
@@ -73,6 +71,27 @@ article {
     Typograhy
     =======================
 */
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 108%;
+  letter-spacing: 0%;
+}
+
+h5 {
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.card p {
+  color: #505050;
+  font-style: Regular;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
 
 a {
   text-decoration: none;
