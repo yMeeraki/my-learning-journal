@@ -16,12 +16,76 @@ body {
 
 /* 
     =======================
-    Main Layout
+    Home Webpage Layout
+    =======================
+*/
+
+/* 
+    =======================
+    Header Section Layout
+    =======================
+*/
+
+header {
+  grid-column: 1/-1;
+}
+
+ul,
+.navbar {
+  display: flex;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background-color: #ffffff;
+}
+
+ul {
+  gap: 4em;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url("./images/hero-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero div {
+  width: 50%;
+
+  background-color: rgba(255, 255, 255, 0.3);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* 
+    =======================
+    Main Section Layout
     =======================
 */
 body {
   display: grid;
-  grid-template-columns: 1em 1fr 1em;
+  grid-template-columns: 2em 1fr 2em;
   grid-template-rows: 1em 1fr 1em;
 }
 main {
