@@ -16,6 +16,19 @@ body {
     Main Layout
     =======================
 */
+body {
+  display: grid;
+  grid-template-columns: 1em 1fr 1em;
+  grid-template-rows: 1em 1fr 1em;
+}
+main {
+  grid-column: 2;
+  grid-row: 2;
+
+  display: grid;
+  gap: 1em 0;
+}
+
 
 /* 
     =======================
@@ -45,8 +58,7 @@ article {
     =======================
 */
 
-a{
-    text-decoration: none;
-    color: #141414;
+a {
+  text-decoration: none;
+  color: #141414;
 }
-
