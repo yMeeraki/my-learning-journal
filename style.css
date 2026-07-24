@@ -184,16 +184,6 @@ article {
 
 /* 
     =======================
-    Post Content
-    =======================
-*/
-
-.post-content {
-  padding: 3em;
-}
-
-/* 
-    =======================
     Post page Images
     =======================
 */
@@ -219,13 +209,13 @@ article {
   color: #141414;
 }
 
-code{
+code {
   font-size: 0.8em;
   background: #505050;
   color: #ffffff;
-  padding: .1em .2em;
+  padding: 0.1em 0.2em;
   font-family: "JetBrains Mono", monospace;
-  border-radius: .2em;
+  border-radius: 0.2em;
 }
 
 /* 
