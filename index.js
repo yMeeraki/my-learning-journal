@@ -70,7 +70,7 @@ const blogPostCards = [
 function blogPostsDOM() {
   document.querySelector("main").innerHTML = blogPostCards.map((postCard) => {
     return `      <a
-        href="#"
+        href="./pages/${postCard.link}"
         aria-label="${postCard.ariaLabel}"
       >
         <article class="card">
