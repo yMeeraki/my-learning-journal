@@ -215,6 +215,12 @@ code {
   border-radius: 0.2em;
 }
 
+.profile-img{
+  width: 182px;
+  height: 182px;
+  border-radius: 50%;
+}
+
 /* 
     =======================
     Typograhy
