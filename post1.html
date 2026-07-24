@@ -4,14 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning HTML Fundamentals</title>
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <article>
-      <header>
+    <header>
+      <section class="navbar">
+        <h2 class="brand">
+          <a href="index.html">
+            <i class="fas fa-comment"></i> My learning journal
+          </a>
+        </h2>
+        <nav>
+          <ul>
+            <li class="nav-item"><a href="index.html">home</a></li>
+            <li class="nav-item"><a href="about-me.html">About Me</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <article class="post">
+      <header class="post-header">
         <h5>JULY 20, 2026</h5>
         <h1>Learning HTML Fundamentals</h1>
-      </header>
-      <main>
+
         <p>
           HTML is where every web development journey begins. At first, it
           seemed like a simple markup language, but as I explored semantic
@@ -20,7 +35,12 @@
           HTML to provide meaning and structure before styling or functionality
           is added.
         </p>
-        <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="Laptop displaying HTML code">
+      </header>
+      <main class="post-content">
+        <img
+          src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+          alt="Laptop displaying HTML code"
+        />
         <h2>Understanding Semantic HTML</h2>
         <p>
           One of the most valuable lessons I learned was the importance of
@@ -38,7 +58,7 @@
           tags, my projects became much cleaner and easier to maintain.
         </p>
 
-        <h3>Forms and Accessibility</h3>
+        <h2>Forms and Accessibility</h2>
         <p>
           Forms introduced me to another important aspect of HTML. Learning how
           to use labels, placeholders, input types, and validation made me
@@ -48,7 +68,7 @@
           Accessibility isn't just an extra feature—it's an essential part of
           building websites that everyone can use.
         </p>
-        <h3>Looking Ahead</h3>
+        <h2>Looking Ahead</h2>
         <p>
           Now that I have a strong understanding of HTML, I'm excited to
           continue learning CSS and JavaScript to transform simple webpages into
@@ -56,5 +76,11 @@
         </p>
       </main>
     </article>
+    <footer>
+      <div class="footer">
+        <h6>My Learning Journal</h6>
+        <p>Copyright &copy;2026</p>
+      </div>
+    </footer>
   </body>
 </html>
