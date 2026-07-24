@@ -156,20 +156,14 @@ article {
 .post {
   grid-column: 2;
   display: grid;
-  grid-template-columns: 1em 1fr 1em;
+  grid-template-columns: 1fr;
   padding: 1em 0;
 }
 
-.post header {
-  grid-column: 2;
-}
-
 .post main {
-  grid-column: 2;
-
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2.1875em 0;
+  gap: 1em 0;
 }
 
 /* 
@@ -193,6 +187,7 @@ article {
   grid-column: 1/-1;
   border-radius: 0.2em;
   object-fit: cover;
+  margin-bottom: 2.1875em;
 }
 
 /* 
